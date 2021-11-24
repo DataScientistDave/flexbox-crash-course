@@ -7,6 +7,15 @@
     /* flex-direction: column; makes it all in a column again */
     /* flex-direction: row-reverse; makes it all start from the other end */
     /* flex-direction: column-reverse; */
+    /* By default justify-content is flex-start. Can flip it by using flex-end. Also try center */
+    /* justify-content does everything in horizontal axis */
+    justify-content: space-between; 
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* align items does everything in vertical axis */
+    /* align-items: flex-end; */
+    align-items:center;
 }
 
 .children {
@@ -15,6 +24,10 @@
     background-color: rgb(255,0,242);
     color: white;
     border: 1px solid black;
+    /* the children can also be flex boxes */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 /* Because the parent is display felx, you can specify the order of the children */
