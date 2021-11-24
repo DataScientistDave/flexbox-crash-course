@@ -16,3 +16,21 @@
     color: white;
     border: 1px solid black;
 }
+
+/* Because the parent is display felx, you can specify the order of the children */
+/* Another cool property is flex-grow. Change the width and height of the children 100. Then define flex-grow in each of the childs */
+/* Flex grow 1 means for each of them means that they will each take equal width to fill the span of the parent. Play around with the flex-grow value and one becomes bigger than the others */
+/* .child1{
+    order: 1;
+    flex-grow: 1;
+}
+
+.child2{
+    order: 2;
+    flex-grow: 5;
+}
+
+.child3{
+    order: 3;
+    flex-grow: 1;
+} */
