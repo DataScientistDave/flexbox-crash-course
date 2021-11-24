@@ -16,6 +16,8 @@
     /* align items does everything in vertical axis */
     /* align-items: flex-end; */
     /* align-items:center; */
+    /* move things to the next row if it can't take enough space. By default it is no wrap */
+    flex-wrap: wrap;
 }
 
 .children {
