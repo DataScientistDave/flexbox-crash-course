@@ -15,7 +15,7 @@
     /* justify-content: center; */
     /* align items does everything in vertical axis */
     /* align-items: flex-end; */
-    align-items:center;
+    /* align-items:center; */
 }
 
 .children {
@@ -33,14 +33,17 @@
 /* Because the parent is display felx, you can specify the order of the children */
 /* Another cool property is flex-grow. Change the width and height of the children 100. Then define flex-grow in each of the childs */
 /* Flex grow 1 means for each of them means that they will each take equal width to fill the span of the parent. Play around with the flex-grow value and one becomes bigger than the others */
+/* can align the children specifically as well */
 /* .child1{
     order: 1;
     flex-grow: 1;
+    align-self: flex-end;
 }
 
 .child2{
     order: 2;
     flex-grow: 5;
+    align-self: center;
 }
 
 .child3{
